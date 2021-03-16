@@ -93,7 +93,7 @@ gameGrid.forEach((item) => {
 	// Apply a card class to that div:see CSS
 	card.classList.add('card');
 	// Set the data-name attribute of the div
-	card.dataset.name = item.name;
+	card.dataset.name = name;
 	const front = document.createElement('div');
 	front.classList.add('front');
 	const back = document.createElement('div');
